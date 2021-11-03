@@ -45,13 +45,13 @@ def body():
 
 def glass():
      
-
+    t.up()
     t.right(230)
     t.forward(100)
     t.left(90)
     t.forward(20)
     t.right(90)
-
+    t.down()
     t.fillcolor(glass_color)
     t.begin_fill()
 
